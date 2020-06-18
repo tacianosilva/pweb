@@ -9,6 +9,7 @@ No navegador acesse o index.html para os destalhes sobre as atividades da discip
 ## Informações
 
 * Página com resumo de [Comandos Git](docs/github.md).
+* Página com [Guia de Uso do Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown).
 
 ## Links
 
