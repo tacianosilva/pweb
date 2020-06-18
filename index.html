@@ -11,55 +11,69 @@
 </head>
 
 <body>
-  <header class="bg-light border-right">
-    <h1>Página da Disciplina - Programação Web</h1>
-  </header>
   <div class="container-fluid">
-    <div class="row">
-      <nav id="sidebar" class="sidebar bg-light">
-        <ul class="nav navbar-nav">
-          <li class="nav-item active">Home</li>
-          <li class="nav-item">Contato</li>
+    <header class="bg-dark text-white border-right">
+      <h1>Página da Disciplina - Programação Web</h1>
+    </header>
+    <div class="d-flex">
+      <nav class="navbar bg-light">
+        <ul class="navbar-nav">
+          <li class="list-group-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="list-group-item">Contato</li>
         </ul>
       </nav>
 
       <main role="main" class="container">
-        <div class="border" style="border:yellowgreen;">
-          <p>Publicada em <time datetime="2020-06-18T00:34:24+01:00">
-              18 de Junho de 2020</time> por <a href="https://github.com/tacianosilva">Taciano Silva</a></p>
+        <section class="page-section">
+          <p></p>
           <p>Página com exemplos utilizado para a Disciplina Programação Web - 2020.5. Neste site teremos as páginas dos
             alunos da disciplina e exemplos de uso de html5, css e javascript.
             Também
             teremos informações sobre o projeto da disciplina.</p>
-        </div>
-        <section class="page-section">
-          <article>
-            <header>
-              <h2>Academic Assistance - Projeto da Disciplina</h2>
-            </header>
-            <p>Sistema para gerenciar os atendimentos realizados pelos monitores e acompanhamento das atividades de
-              monitores
-              e discentes.</p>
-          </article>
-
+        </section>
+        
+        <section>
           <article>
             <header>
               <h2>Páginas dos Alunos</h2>
             </header>
             <p>Links para as páginas home dos discetes da disciplina:</p>
             <ul>
-              <li><a href="pages/tacianosilva/home.html">Home de Taciano Silva</a></li>
+              <li><a href="pages/tacianosilva/home.html">Home de Taciano Silva (exemplo)</a></li>
+            </ul>
           </article>
         </section>
+        
+        <section>
+          <article>
+            <header>
+              <h2>Projeto da Disciplina</h2>
+            </header>
+            <p><mark>Academic Assistance</mark> - Sistema para gerenciar os atendimentos realizados pelos monitores e acompanhamento das atividades de
+              monitores
+              e discentes.</p>
+              <p>Descreveremos aqui o projeto e teremos links para os artefatos de código.
+                Também teremos informações utilizando Markdown.
+              </p>
+          </article>
+        </section>
+        
       </main>
     </div>
+
+    <footer class="footer text-center">
+      <div class="container">
+        <span>Publicada em <time datetime="2020-06-18T00:34:24+01:00">
+            18 de Junho de 2020</time> por
+          <a href="https://github.com/tacianosilva">Taciano Silva</a></span>
+        <br>
+        <span class="text-muted">Copyright 2020 © Taciano Silva</span>
+      </div>
+    </footer>
+
   </div>
-  
-  <footer class="footer text-center">
-    <div class="container">
-      <span class="text-muted">Copyright 2020 Taciano Silva©.</span>
-    </div>
-  </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
