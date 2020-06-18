@@ -2,7 +2,13 @@
 
 Site com exemplos utilizado para a Disciplina Programação Web - 2020.5.
 
-Neste site teremos as páginas dos alunos da disciplina e exemplos de uso de html5, css e javascript. Também teremos informações sobre o projeto da disciplina. Acesse o index.html para mais destalhes sobre a disciplina.
+Neste site teremos as páginas dos alunos da disciplina e exemplos de uso de html5, css e javascript. Também teremos informações sobre o projeto da disciplina. 
+
+No navegador acesse o index.html para os destalhes sobre as atividades da disciplina.
+
+## Informações
+
+* Página com resumo de [Comandos Git](docs/github.md).
 
 ## Links
 
