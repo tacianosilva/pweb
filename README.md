@@ -1,4 +1,4 @@
-# pweb-20205
+# Programação Web - 2020.5
 
 Site com exemplos utilizado para a Disciplina Programação Web - 2020.5.
 
