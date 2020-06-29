@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tarefa 01 - 2020.5 - Git e GitHub com HTML e CSS</title>
+        
+        <style>
+            body {
+                background: #f0f0f0;
+                font-family: arial, sans-serif
+            }
+
+            #topo { width:1000px; height:350px }
+
+            nav { width: auto; margin: auto; background-color: #5D240A }
+            nav ul { list-style:none; margin:0; padding:4px }
+            nav ul li { display:inline-block }
+            nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px }
+            nav ul li a:hover { background-color: #B4531A }
+
+            footer { clear:both; width:auto; margin:0 auto; font-size:0.75em;
+            text-align:center; background-color:#ffffff; padding:5px }
+        
+        </style>
+        
+    </head>
+
+    <body>
+
+        <header id="topo">
+            <img src="principal.jpg">
+        </header>
+        
+        <nav>
+                <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="Periodo20205.html">Período Suplementar 2020.5</a></li>
+                  <li><a href="GitHub.html">GitHub</a></li>
+                  <li><a href="css.html">CSS</a></li>
+                  <li><a href="HTML5.htm">HTML5</a></li>
+                
+                </ul>
+            </nav>
+        
+        <ol>
+            <p>
+                <b>Nome:</b> Átila Salvino de Araújo <br>
+                <b>Usuário GitHub:</b> AtilaSalvino <br>
+                <b>E-mail:</b> atila.sa@hotmail.com
+            </p>
+
+            <h3><li>O que é servidor web e o que é servidor de aplicação? Qual a diferença?</li></h3>
+
+            <p>A tarefa principal do servidor da Web é exibir o conteúdo do site e o servidor de aplicativos é responsável pela lógica , a interação entre o usuário e o conteúdo exibido. O servidor de aplicativos é trabalhando em conjunto com o servidor da web, onde um é exibido e o outro interage. </p>
+
+            <h3><li>Escolha uma linguagem de programação e pesquise sobre frameworks para a linguagem. Fale um pouco sobre um framework web e um framework ORM da linguagem escolhida.</li></h3>
+
+            <p><b>O que é um web framework? </b>É um componente que ajuda a simplificar o desenvolvimento de seus aplicativos da web. É como um kit de ferramentas que inclui serviços da web, recursos, APIs e fornece uma base estável para seu aplicativo.</p>
+            <p>Um web framework permite que você construa seu aplicativo sem ter que criá-lo do zero. Quando se trata de Python, existem vários disponíveis, como Django, Flask, Pyramid, Bottle etc. Cada um possui seu próprio conjunto de prós e contras, e a escolha depende muito dos seus requisitos. Vamos examinar em detalhes dois deles: Flask e Django.</p>
+            
+            <h3>Flask</h3>
+            <p><b>O Flask</b> é um web framework de código aberto lançado em 2010 amplamente utilizado para Python. Seu funcionamento é semelhante a um conjunto de Lego, onde os desenvolvedores podem construir o que quiserem, tornando o Flask fácil de entender e usar.</p>
+            <h4>Características:</h4>
+            <p><b>Velocidade-></b> Embora a velocidade não tenha sido muito considerada durante a fase de desenvolvimento do Flask, para o usuário, é uma característica fundamental. O Flask segue uma abordagem de design minimalista e, portanto, tem um desempenho mais rápido em relação ao Django. Ele pode suportar centenas de consultas por segundo sem nenhum impacto negativo.</p>
+            <p><b>Simplicidade-></b> Devido ao fato de ser minimalista, o Flask fornece ao desenvolvedor os recursos necessários para criar um protótipo para sua aplicação web facilmente. Ele oferece aos desenvolvedores controle e flexibilidade para o desenvolvimento. Existem vários templates disponíveis com a biblioteca de linguagem padrão Jinja2. Além disso, o aplicativo vem com a biblioteca WSGI toolkit e um servidor web embutido para que você não precise depender de servidores externos, como o Apache, para testar seu aplicativo.</p>
+            <p><b>Facilidade de integração com banco de dados-></b> Ao contrário de outros web frameworks, o Flask não tem uma camada adicional de acesso ao banco de dados nem depende do ORM (Object-Relational Mapping). Como resultado, a integração com toolkits de banco de dados como SQLAlchemy, NoSQL, MongoDB e DynamoDB é bem fácil.</p>
+
+            <h3>Django</h3>
+            <p><b>Django</b> foi lançado em 2005 e é destinado a grandes aplicações. Inclui um ORM, que permite alternar rapidamente entre vários bancos de dados relacionais. Ele ainda fornece MVC e Django REST Framework.</p>
+            <h4>Características:</h4>
+            <p><b>‘Browsable’ API-></b> O Django REST Framework suporta REST-Ful API e um modelo de API com usuário embutido, para autorização e autenticação. Assim, ele suporta saída HTML amigável quando este formato é solicitado. Essas páginas permitem que desenvolvedores navegam mais facilmente e execute comandos GET e POST de forma simples. A ‘Bromsable’ API é construída com Bootstrap, tornando a customização simples.</p>
+            <p><b>Gestão de banco de dados simples-></b> Como o Django inclui um ORM, ele permite que vários bancos de dados relacionais, como PostgreSQL, Oracle, MySQL, SQLite etc, interajam com os dados do aplicativo. O Django permite modelos e fácil criação de tabelas e campos automaticamente. Além disso, alterações como a criação de tabelas e índices são implementadas com um único comando.</p>
+            <p><b>Painel de administração usual-></b> O Django vem com um painel de administração automático e muito personalizável. Este painel facilita a produção e o desenvolvimento de um CMS (sistema de gerenciamento de conteúdo).</p>
+
+            <h3>Conclusão</h3>
+            <p>No geral, o <b>Django</b> e o <b>Flask</b> são dois frameweworks diferentes, cada um com seu próprio conjunto de prós e contras. A escolha do framework é realmente baseada no que você como desenvolvedor precisa. Enquanto Django é mais adequado para aplicações pesadas e complexas, o Flask é adequado para aplicativos web simples e leves.</p>
+
+            <h3><li>Pesquise e fale um pouco sobre branches e pull request usando git e github.</li></h3>
+            <p>Um <b>branch</b> é uma versão paralela de um repositório. O branch está contido no repositório, mas não afeta o branch principal ou mestre, o que permite trabalhar livremente sem interromper a versão ativa. Após concluir as alterações necessárias, você poderá fazer merge entre o branch alterado e o branch mestre para publicar as alterações. </p>
+            <p>As <b>pull requests</b> permitem que você informe outras pessoas sobre as alterações das quais você fez push para um branch em um repositório no GitHub. Depois que uma pull request é aberta, você pode discutir e revisar as possíveis alterações com colaboradores e adicionar commits de acompanhamento antes que as alterações sofram merge no branch base.</p>
+
+            <h3>Referências</h3>
+            <p>https://help.github.com/</p>
+            <p>https://imasters.com.br/back-end/flask-x-django-como-escolher-o-framework-correto-para-seu-aplicativo-web </p>
+            <p>https://www.it-swarm.dev/pt/webserver/qual-e-diferenca-entre-o-servidor-de-aplicativos-e-o-servidor-da-web/957569129/</p>
+            
+        </ol>
+
+        <!--RODAPÉ-->
+        <footer>
+            
+            <p>Minha primeira página Web - Programação WEB</p>
+            <p><small>&copy; Copyright 2020.5 - Átila Salvino todos os direitos reservados</small></p>
+        </footer>
+
+    </body>
+
+
+</html>
