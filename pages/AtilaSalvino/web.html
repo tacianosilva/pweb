@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tarefa 03 - 2020.5 - Servidores Web e MVC</title>
+        
+        <style>
+            body {
+                background: #f0f0f0;
+                font-family: arial, sans-serif
+            }
+
+            #topo { width:1000px; height:350px }
+
+            nav { width: auto; margin: auto; background-color: #5D240A }
+            nav ul { list-style:none; margin:0; padding:4px }
+            nav ul li { display:inline-block }
+            nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px }
+            nav ul li a:hover { background-color: #B4531A }
+
+            footer { clear:both; width:auto; margin:0 auto; font-size:0.75em;
+            text-align:center; background-color:#ffffff; padding:5px }
+        
+        </style>
+        
+    </head>
+
+    <body>
+
+        <header id="topo">
+            <img src="principal.jpg">
+        </header>
+        
+        <nav>
+                <ul>
+                  <li><a href="home.html">Tarefa 01</a></li>
+                  <li><a href="web.html">Tarefa 03</a></li>
+                  <li><a href="https://github.com/">GitHub</a></li>
+                  <li><a href="css.html">CSS</a></li>
+                  <li><a href="HTML5.htm">HTML5</a></li>
+                
+                </ul>
+            </nav>
+        
+        <section>
+            <ol>
+                <p>
+                    <b>Nome:</b> Átila Salvino de Araújo <br>
+                    <b>Usuário GitHub:</b> AtilaSalvino <br>
+                    <b>E-mail:</b> atila.sa@hotmail.com
+                </p>
+
+                <a href="https://github.com/AtilaSalvino/Implem_MVC_Java">Repositório Implementação Arquitetura MVC</a>
+
+                <h3><li>Explique o que é CGI</li></h3>
+                <p>CGI é uma sigla em inglês para o termo Computer Graphic Imagery, ou seja, imagens geradas por computador, a famosa computação gráfica. O termo se refere a todas as imagens geradas através de computadores feitas em três dimensões, com a profundidade de campo sendo possível graças apenas à computação. O CGI nada mais é que praticamente todo tipo de efeito ou animações que vemos hoje em diaí, seja em filmes, videogames ou mesmo na televisão.</p>
+
+                <h3><li>Explique o que é Servidor Web, Container Web (Java) e Servidor de Aplicação.</li></h3>
+                <p><b>Servidor web</b> é um software responsável por aceitar pedidos em HTTP de clientes, geralmente os navegadores, e servi-los com respostas em HTTP, incluindo opcionalmente dados, que geralmente são páginas web, tais como documentos em HTML com objetos embutidos (imagens, etc.) ou um computador que executa um programa que provê a funcionalidade descrita anteriormente. O mais popular, e mais utilizado no mundo, é o servidor Apache (software livre). A Microsoft possui a sua própria solução denominada IIS (Internet Information Services). </p>
+                <p><b>Recipiente web</b>, ou <b>web container</b>, também conhecido como <b>Servlet container</b>, é o componente de um servidor web que interage com servlets Java. Um recipiente web é responsável por gerenciar o ciclo de vida de servlets, mapear uma URL para um servlet particular e garantir que o requisitante da URL possua os direitos de acesso corretos. Um recipiente web implementa o contrato de componente web da arquitetura Java EE, especificando um ambiente de tempo de execução para componentes web que inclui segurança, concorrência, gerenciamento de ciclo de vida, transação, implantação e outros serviços. Um recipiente web fornece os mesmos serviços que um recipiente JSP bem como uma visão associada das APIs da plataforma Java EE.</p>
+                <p>Um Servidor de Aplicações (em inglês Applications Server), é um servidor que disponibiliza um ambiente para a instalação e execução de certas aplicações, centralizando e dispensando a instalação nos computadores clientes. Os servidores de aplicação também são conhecidos por middleware. O objetivo do servidor de aplicações é disponibilizar uma plataforma que separe do desenvolvedor de software algumas das complexidades de um sistema computacional. No desenvolvimento de aplicações comerciais, por exemplo, o foco dos desenvolvedores deve ser a resolução de problemas relacionados ao negócio da empresa, e não de questões de infraestrutura da aplicação. O servidor de aplicações responde a algumas questões comuns a todas as aplicações, como segurança, garantia de disponibilidade, balanceamento de carga e tratamento de exceções.</p>   
+
+                <h3><li>Defina Arquitetura Cliente-Servidor.</li></h3>
+                <p>A tecnologia cliente/servidor é uma arquitetura na qual o processamento da informação é dividido em módulos ou processos distintos. Um processo é responsável pela manutenção da informação (servidores) e outros responsáveis pela obtenção dos dados (os clientes).</p>
+                <p>Os processos cliente enviam pedidos para o processo servidor, e este por sua vez processa e envia os resultados dos pedidos.</p>
+                <p>É no servidor que normalmente ficam os sistemas mais pesados da rede, tais como o banco de dados. As máquinas clientes são menos poderosas, pois não rodam aplicativos que requerem tantos recursos das máquinas.</p>
+                
+                <h3><li>Defina Arquitetura MVC. E fale das vantagens e desvantagens da utilização do MVC.</li></h3>
+                <p>A utilização do padrão MVC trás como benefício isolar as regras de negócios da lógica de apresentação, a interface com o usuário. Isto possibilita a existência de várias interfaces com o usuário que podem ser modificadas sem que haja a necessidade da alteração das regras de negócios, proporcionando assim muito mais flexibilidade e oportunidades de reuso das classes.</p>
+                <p>Uma das características de um padrão de projeto é poder aplicá-lo em sistemas distintos. O padrão MVC pode ser utilizado em vários tipos de projetos como, por exemplo, desktop, web e mobile.</p>
+
+                <h4>Vantagens:</h4>
+                <ul>
+                    <li>Como o modelo MVC gerencia múltiplos visualizadores usando o mesmo
+                        modelo é fácil manter, testar e atualizar sistemas múltiplos.
+                    </li>
+                    <li>É muito simples incluir novos clientes apenas incluindo seus visualizadores e
+                        controles.
+                    </li>
+                    <li>Torna a aplicação escalável.</li>
+                    <li>É possível ter desenvolvimento em paralelo para o modelo, visualizador e
+                        controle, pois são independentes.
+                    </li>
+                    <li>É mais fácil gerenciar a complexidade da aplicação dividindo-a em (MVC)
+                        modelo, visualizador e controlador.
+                    </li>
+                </ul>
+                <h4>Desvantagens:</h4>
+                <ul>
+                    <li>Requer uma quantidade maior de tempo para analisar e modelar o sistema.</li>
+                    <li>Requer pessoal com conhecimento especializado.</li>
+                    <li>Não é aconselhável para pequenas aplicações.</li>
+                </ul>
+                
+                <h3>Referências</h3>
+                <p>https://pt.wikipedia.org/</p>
+                <p>https://engsoftmoderna.info/cap7.html</p>
+    
+            </ol>
+
+        </section>
+
+        <!--RODAPÉ-->
+        <footer>
+            
+            <p>Minha primeira página Web - Programação WEB</p>
+            <p><small>&copy; Copyright 2020.5 - Átila Salvino todos os direitos reservados</small></p>
+        </footer>
+
+    </body>
+
+
+</html>
